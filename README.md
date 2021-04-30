@@ -1,8 +1,8 @@
 ## Introducción
 
-En este ejercicio vamos a construir una versión simplificada de la _landing page_ de Spotify:
+En este ejercicio vamos a construir una versión simplificada de la _landing page_ de Spotify
 
-![Spotify image](https://i.imgur.com/xVD0bm6.jpg)
+
 
 <br>
 
