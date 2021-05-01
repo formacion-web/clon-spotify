@@ -14,3 +14,32 @@ White: #FFF
     list-style: none;
 
 }
+
+body {
+    max-width: 100%;
+   
+}
+nav {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+.logo {
+    width: auto;
+    height: 60px;
+    margin: 20px;
+    }
+
+nav ul {
+    justify-content: center;
+    
+    
+}
+
+
+nav ul li{
+    display: inline;    
+}
