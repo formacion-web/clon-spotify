@@ -7,39 +7,57 @@ White: #FFF
 
 */
 * {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
-    list-style: none;
-
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  list-style: none;
 }
 
 body {
-    max-width: 100%;
-   
+  max-width: 1200px;
+  margin: auto;
 }
 nav {
-    display: flex;
-    height: 100px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 15px;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
 }
+header {    
+    display: flex;
+    background-image: url("../images/landing.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
+    flex-flow: wrap;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .logo {
-    width: auto;
-    height: 60px;
-    margin: 20px;
-    }
+  width: auto;
+  height: 60px;
+  margin: 20px;
+}
 
 nav ul {
-    justify-content: center;
-    
-    
+  display: flex;
+  width: 450px;
+  justify-content: space-between;
 }
 
+nav ul li {
+  display: inline;
+}
 
-nav ul li{
-    display: inline;    
+header h1, header p {
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
