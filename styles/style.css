@@ -59,6 +59,8 @@ header {
   width: 100%;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 header h1,
@@ -67,6 +69,7 @@ header p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  
   position: relative;
 }
 
@@ -74,6 +77,7 @@ h1 {
   font-size: 4.5em;
   font-weight: lighter;
   margin-bottom: 30px;
+  
 }
 
 header p {
@@ -88,6 +92,16 @@ header p {
   text-align: center;
 }
 
+.green--line {
+  border-top: #00B172 solid;
+  margin-top: 4px;
+  width: 210px;
+  margin-left: auto;
+  margin-right: auto;
+  
+
+}
+
 .main--container h2 {
   margin-top: 30px;
   font-size: 1.5em;
@@ -99,7 +113,6 @@ header p {
 }
 
 .sub-container img {
-  display: flex;
   height: 80px;
 }
 
@@ -107,15 +120,15 @@ header p {
   display: block;
   width: 300px;
   height: 300px;
-  flex-direction: column;
+  
   padding: 50px;  
 }
 
-.sub-container img, h3, p {
+/*.sub-container img, h3, p {
   text-align: center;
   margin-top: 50px;
   margin: auto;
-}
+}*/
 
 .sub-container h3 {
   margin-top: 10px;
