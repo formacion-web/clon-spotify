@@ -21,6 +21,20 @@ body {
   font-family: sans-serif;
   color: #1a1a1a;
 }
+
+header {
+  display: flex;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  flex-flow: wrap;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
 nav {
   display: flex;
   height: 100px;
@@ -29,6 +43,10 @@ nav {
   align-items: center;
   padding-left: 15px;
   padding-right: 30px;
+  background: white;
+  z-index: 1;
+  align-self: flex-start;
+  margin-bottom: 200px;
 }
 
 .logo {
@@ -49,20 +67,6 @@ nav ul li {
   font-size: 1.2em;
 }
 
-header {
-  display: flex;
-  background-image: url("../images/landing.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
-  flex-flow: wrap;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-}
-
 header h1,
 header p {
   color: #fff;
@@ -77,6 +81,7 @@ h1 {
   font-size: 4.5em;
   font-weight: lighter;
   margin-bottom: 30px;
+  
   
 }
 
@@ -123,12 +128,6 @@ header p {
   height: 300px;  
   padding: 50px;  
 }
-
-/*.sub-container img, h3, p {
-  text-align: center;
-  margin-top: 50px;
-  margin: auto;
-}*/
 
 .sub-container h3 {
   margin-top: 10px;
