@@ -30,29 +30,6 @@ nav {
   padding-left: 15px;
   padding-right: 30px;
 }
-header {
-  display: flex;
-  background-image: url("../images/landing.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 800px;
-  flex-flow: wrap;
-  width: 100%;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.main--container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-}
-
-.sub-container {
-  display: flex;
-  justify-content: space-around;
-}
 
 .logo {
   width: auto;
@@ -70,6 +47,18 @@ nav ul li {
   display: inline;
   text-decoration: none;
   font-size: 1.2em;
+}
+
+header {
+  display: flex;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  flex-flow: wrap;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header h1,
@@ -92,23 +81,49 @@ header p {
   font-weight: 200;
 }
 
-hr {
-  border-top: 4px;
-  color: #00b172;
+.main--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.main--container h2 {
+  margin-top: 30px;
+  font-size: 1.5em;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .sub-container img {
   display: flex;
-  justify-content: space-around;
   height: 80px;
 }
 
 .sub-container div {
-  display: flex;
+  display: block;
   width: 300px;
   height: 300px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  padding: 50px;  
 }
+
+.sub-container img, h3, p {
+  text-align: center;
+  margin-top: 50px;
+  margin: auto;
+}
+
+.sub-container h3 {
+  margin-top: 10px;
+}
+
+.sub-container p {
+  
+ margin-top: 16px;
+}
+
+
