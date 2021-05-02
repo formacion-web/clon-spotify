@@ -6,3 +6,213 @@ Green: #00B172
 White: #FFF
 
 */
+
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+/* primer bloque */
+
+
+
+header{
+    width: 100%;
+   
+}
+
+/* Barra de navegacion*/
+
+nav img{
+    width: 200px;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+ul li{
+    list-style: none;
+    margin-right: 2rem;
+    font-size: x-large;
+    
+}
+
+ul li:first-child{
+    margin-right: auto;
+}
+
+
+header .img{
+    width: 100%;
+    height: 800px;
+}
+
+.titulo h1{
+    position: absolute;
+    top: 45%;
+    left: 23%;
+    font-size: 70px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+.titulo p{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 66%;
+    left: 22%;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+   
+}
+
+.titulo .p{
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+    top: 71%;
+    left: 25%;
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+
+/* segundo bloque */
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+
+body h2{
+    text-align: center;
+    color: black;
+    font-size: 35px;
+    font-family: Helvetica, Arial, sans-serif;
+    
+    
+   
+}
+
+hr{
+    background-color: #00B172;
+    width: 300px;
+    height: 5px;
+    border: none;
+    margin-top: -15px;
+    margin-bottom: 40px;
+}
+
+
+
+.section {
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    
+    
+   
+}
+
+.article{
+    padding: 90px;
+    text-align: center;
+}
+
+.article h3{
+    color: #00B172;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 26px;
+}
+
+.article p{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    
+}
+
+.article img{
+   
+   width: 130px;
+   height: 110px;
+ 
+}
+
+/* tercer bloque */
+
+
+footer{
+    width: 90%;
+    padding: 90px;
+    background-color:#00B172;
+    display:flex;
+    align-content:space-between;
+  }
+
+  h4{
+    color:white;
+    margin-bottom:15px;
+    font-size:32px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .hr{
+    width:425px;
+    margin-left: 0px;
+    height:3px;
+    background-color: white;
+    
+  }
+
+
+  article{
+      color: white;
+      width: 500px;
+  }
+
+  article h5{
+    font-family: Arial, Helvetica, sans-serif;
+      font-size: 28px;
+  }
+
+  article p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 27px;
+  }
+
+  .imag1{
+    width: 120px;
+    height: 120px;
+    margin-top: 310px;
+    align-items:center;
+  }
+ 
+
+ 
+
+  footer img{
+    width:350px;
+    height:650px;
+    margin-left: 80px;
+    margin-top: 50px;
+    
+   
+   
+  }
+  
+
+
+
