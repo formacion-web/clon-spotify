@@ -18,8 +18,8 @@ White: #FFF
 body {
   max-width: 1200px;
   margin: auto;
-  font-family:  sans-serif;
-  color: #1A1A1A;
+  font-family: sans-serif;
+  color: #1a1a1a;
 }
 nav {
   display: flex;
@@ -28,17 +28,30 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding-left: 15px;
+  padding-right: 30px;
 }
-header {    
-    display: flex;
-    background-image: url("../images/landing.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 800px;
-    flex-flow: wrap;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
+header {
+  display: flex;
+  background-image: url("../images/landing.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  flex-flow: wrap;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main--container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.sub-container {
+  display: flex;
+  justify-content: space-around;
 }
 
 .logo {
@@ -51,8 +64,6 @@ nav ul {
   display: flex;
   width: 400px;
   justify-content: space-between;
- 
-  
 }
 
 nav ul li {
@@ -61,21 +72,43 @@ nav ul li {
   font-size: 1.2em;
 }
 
-header h1, header p {
-    color: #fff;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;    
+header h1,
+header p {
+  color: #fff;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
 }
 
 h1 {
-    font-size: 4.5em;
-    font-weight: lighter;
-    margin-bottom: 30px;
+  font-size: 4.5em;
+  font-weight: lighter;
+  margin-bottom: 30px;
 }
 
 header p {
-    font-size: 1.5em;
-    font-weight: 200;
-    
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+hr {
+  border-top: 4px;
+  color: #00b172;
+}
+
+.sub-container img {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+}
+
+.sub-container div {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
