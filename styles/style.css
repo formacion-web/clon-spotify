@@ -73,7 +73,6 @@ header p {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-
   position: relative;
 }
 
@@ -151,7 +150,7 @@ header p {
   color: #fff;
   height: 800px;
   max-width: 1280px;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 
 .green--container__left {
@@ -167,8 +166,7 @@ header p {
   margin-right: -200px;
   margin-top: 40px;
   font-size: 2.1em;
-  font-weight: 600;
-  
+  font-weight: 600;  
 }
 
 .green--container__left p {
@@ -180,12 +178,10 @@ header p {
 
 .green--container h3 {
   margin-top: 18px;
-
   font-size: 1.6em;
 }
 
-.white-logo {
-  position: absolute;
+.white-logo {  
   height: 120px;
   width: auto;
   left: 45%;
