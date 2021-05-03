@@ -16,7 +16,7 @@ White: #FFF
   }
   
   body {
-    max-width: 1800px; 
+    max-width: 1900px; 
     margin: auto;
     font-family: "Montserrat", sans-serif;
     color: #1a1a1a;
@@ -149,7 +149,7 @@ White: #FFF
     margin-bottom: 40px;
     color: #fff;
     height: 800px;
-    max-width: 1280px;
+    max-width: 1820px;
     justify-content: space-between;  
   }
   
