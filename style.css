@@ -1,0 +1,146 @@
+/*
+Colors:
+
+Text: 1A1A1A
+Green: #00B172
+White: #FFF
+
+*/
+/*
+section,header{
+    border: 0.2em solid blue
+}
+*/
+
+body{
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+header{
+    position: fixed;
+    padding-right: 30px;
+    width: 100%;
+    background-color:#FFF;
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header img {
+    width: 150px;
+    
+}
+header li {
+    list-style-type: none;
+     
+}
+header a{
+    margin: auto;
+    padding-right: 15px;
+    text-decoration: none;
+    color:#1A1A1A;
+}
+
+main div > img{
+    width:25%;/*valor inicial*/
+}
+
+main>section:nth-child(1){
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 10%;
+    height: 500px;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-image: url("images/landing.jpg");
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color:#FFF;
+    text-align: center;
+  }
+main>section:nth-child(1) h1{
+    font-size: 3em;
+}
+main>section:nth-child(1) h2{
+    padding-right:15%;
+    padding-left: 15%;
+    font-weight: lighter;
+}
+
+main>section:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    padding: 5%;     
+}
+
+main>section:nth-child(2) section{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+          
+}
+
+
+main>section:nth-child(2) h3{
+     color: #00B172;
+       
+}
+main>section:nth-child(2) h4{
+    padding-left: 25%;
+    padding-right: 25%;
+    font-weight: lighter;
+      
+}
+
+main>section:nth-child(2) h2>span{
+ /*text-decoration: underline white;*/
+ border-bottom: 4px solid  #00B172;;
+ padding-bottom: .3em;
+}
+
+main>section:nth-child(3){
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-image: url("images/spotify-icon-white.png");
+    background-size: 10%;
+    background-color: #00B172;
+    color: #FFF;
+ }
+
+main>section:nth-child(3) h2>span{
+    /*text-decoration: underline white;*/
+    border-bottom: 4px solid  #FFF;
+    padding-bottom: .3em;
+   }
+
+main>section:nth-child(3) h4 {
+    font-weight: lighter;
+}
+main>section:nth-child(3) h2,  main>section:nth-child(3) h4{
+    text-align: left;
+  
+ }
+
+ main>section:nth-child(3)>section:nth-child(2) div{
+    text-align: center; 
+    padding: 5%
+ }
+
+ main>section:nth-child(3)>section:nth-child(1){
+    padding-left: 5%;
+    padding-right: 20%;
+ }
+
+ img.grande{
+    width: 50%; height: 50%;
+  }
